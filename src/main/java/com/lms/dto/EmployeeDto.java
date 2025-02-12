@@ -5,7 +5,7 @@ public class EmployeeDto {
 	private long id;
 	private String name;
 	private String emailId;
-	private String mobile;
+	private String mobiles;
 	public String getName() {
 		return name;
 	}
@@ -18,11 +18,11 @@ public class EmployeeDto {
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
 	}
-	public String getMobile() {
-		return mobile;
+	public String getMobiles() {
+		return mobiles;
 	}
-	public void setMobile(String mobile) {
-		this.mobile = mobile;
+	public void setMobiles(String mobiles) {
+		this.mobiles = mobiles;
 	}
 	public long getId() {
 		return id;
